@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: fuenteAntigua;
+    src: url(./fonts/BLKCHCRY.TTF);
+}
+
+html {
+    font-size: 1.25vw;
+    font-family: fuenteAntigua;
+}
+
+body {
+    background-image:  url(./images/wood.jpg);
+    background-size: cover;
+}
+
+.carta {
+    background-image:  url(./images/background.png);
+    background-repeat: round;
+    word-wrap: break-word;
+    writing-mode: horizontal-tb;
+    background-size: 100% 100%;
+    margin: 50px 5%;
+    padding: 6%;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+address {
+    font-style: italic;
+    vertical-align: text-top;
+}
+
+address.dirEleanor {
+    text-align: right;
+}
+
+h2 {
+    color: rgb(61, 60, 114);
+    text-align: center;
+    word-spacing: 1.2vw;
+    font-size: 2.25em;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p, blockquote, li {
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+p.gran-letra-inicial:first-letter{
+    font-size:300%;
+    top: 200px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+#cita {
+    quotes: "<<" ">>";
+}
+
+.otra-cita {
+    quotes: "^^" "^^";
+}
+
+
+/* Este selector realmente hace lo mismo que el tag <b> */
+
+.bold {
+    font-weight: bold;
+}
